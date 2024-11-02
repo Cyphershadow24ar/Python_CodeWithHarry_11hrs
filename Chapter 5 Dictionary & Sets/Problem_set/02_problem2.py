@@ -1,0 +1,21 @@
+#write a program to input right numbers from the user and display all the unique numbers (once).
+
+s = set()
+n = input("Emter number: ")
+s.add(int(n))
+n = input("Emter number: ")
+s.add(int(n))
+n = input("Emter number: ")
+s.add(int(n))
+n = input("Emter number: ")
+s.add(int(n))
+n = input("Emter number: ")
+s.add(int(n))
+n = input("Emter number: ")
+s.add(int(n))
+n = input("Emter number: ")
+s.add(int(n))
+n = input("Emter number: ")
+s.add(int(n))
+
+print(s)
